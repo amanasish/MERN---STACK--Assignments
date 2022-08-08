@@ -1,0 +1,190 @@
+.form_container{
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    background-color: rgb(191, 194, 129);
+}
+
+h1{
+    color:white ;
+    text-align: center;
+}
+
+input[type=text]{
+    width: 1000px;
+    padding: 7px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+input[type=email]{
+    width: 1000px;
+    padding: 7px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+input[type=phone]{
+    width: 100px;
+    padding: 7px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+input[type=radio]{
+    width: 100px;
+    padding: 7px;
+    margin: 20px;
+}
+
+textarea{
+    width: 1000px;
+    padding: 7px;
+    margin: 20px;
+}
+
+input[type=pincode]{
+    width: 100px;
+    padding: 7px;
+    margin: 20px;
+}
+
+input[type=password]{
+    width: 1000px;
+    padding: 7px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+input[type=checkbox]{
+    width: 80px;
+    padding: 7px;
+    margin: 20px;
+}
+
+input[type=submit]{
+    width: 1150px;
+    padding: 7px;
+    margin: 20px;
+    text-align: center;
+    background-color: darkgreen;
+    border-radius: 10px;
+}
+
+#div_00{
+    width: 42%;
+    float:right;
+    color: beige;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+
+#div_01{
+    width: 14.2%;
+    float:left;
+    margin-bottom:20px ;
+    color: beige;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+#div_02{
+    width: 14.2%;
+    float:left;
+    margin-bottom:20px ;
+    color: beige;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+#div_03{
+    width: 14.2%;
+    float:left;
+    margin-bottom:20px ;
+    color: beige;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+
+#div_04{
+    width: 14.2%;
+    float:left;
+    margin-bottom:20px ;
+    color: beige;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+#div_05{
+    width: 14.2%;
+    float:left;
+    margin-bottom:20px ;
+    color: beige;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+#div_06{
+    width: 14.2%;
+    float:left;
+    margin-bottom:20px ;
+    color: beige;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+
+#div_07{
+    width: 14.2%;
+    float:left;
+    margin-bottom:20px ;
+    color: beige;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+
+#div_1{
+    width: 14.2%;
+    float:left;
+    margin-bottom:20px ;
+    text-align: center;
+}
+
+#div_2{
+    width:14.2%;
+    float:left;
+    margin-bottom:20px ;
+    text-align: center;
+}
+
+#div_3{
+    width: 14.2%;
+    float:left;
+    margin-bottom:20px ;
+    text-align: center;
+}
+
+#div_4{
+    width: 14.2%;
+    float:left;
+    margin-bottom:20px ;
+    text-align: center;
+}
+
+#div_5{
+    width: 14.2%;
+    float:left;
+    margin-bottom:20px ;
+    text-align: center;
+}
+
+#div_6{
+    width: 14.2%;
+    float:left;
+    margin-bottom:20px ;
+    text-align: center;
+}
+
