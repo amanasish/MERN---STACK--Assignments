@@ -1,0 +1,16 @@
+.form-input{
+    margin: 10px;
+    padding: 10px;
+}
+
+.button_add{
+    background: rgb(216, 177, 45);
+    border: 2px solid rgb(234, 221, 31);
+    margin-top: 20px ;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    width: 30%;
+}
