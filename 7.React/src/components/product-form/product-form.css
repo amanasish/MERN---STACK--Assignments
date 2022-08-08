@@ -1,0 +1,32 @@
+
+.form-input{
+    margin: 10px;
+    padding: 10px;
+}
+
+.clearflix{
+    clear:both;
+}
+
+input[type='text']{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 20px;
+}
+.button_add{
+    background: rgb(216, 177, 45);
+    border: 2px solid rgb(234, 221, 31);
+    margin-top: 20px ;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    width: 30%;
+}
+
+.Error_msg{
+    color: red;
+}
