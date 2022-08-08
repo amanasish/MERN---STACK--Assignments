@@ -1,0 +1,28 @@
+[
+    {
+        "product_id":"101",
+        "product_name":"Bread",
+        "product_quantity":"100",
+        "product_price":"20"
+    },
+    {
+        "product_id":"102",
+        "product_name":"Jam",
+        "product_quantity":"10",
+        "product_price":"150"
+    },
+    
+    {
+        "product_id":"103",
+        "product_name":"Plate",
+        "product_quantity":"20",
+        "product_price":"120"
+    },
+
+    {
+        "product_id":"104",
+        "product_name":"Fork",
+        "product_quantity":"20",
+        "product_price":"30"
+    }
+]
