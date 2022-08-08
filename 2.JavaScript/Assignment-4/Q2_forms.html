@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mulish:wght@200&family=Permanent+Marker&family=Rubik+Moonrocks&family=Satisfy&family=Splash&display=swap" rel="stylesheet">
+<style>
+    .form_container{
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    background-color: rgb(191, 194, 129);
+}
+h1{
+    text-align: center;
+}
+input[type=text]{
+    width: 1000px;
+    padding: 7px;
+    margin: 20px;
+    border-radius: 10px;
+}
+input[type=email]{
+    width: 1000px;
+    padding: 7px;
+    margin: 20px;
+    border-radius: 10px;
+}
+input[type="password"]
+{
+    width:30%;
+    
+}
+
+textarea{
+    width: 1000px;
+    padding: 7px;
+    margin: 20px;
+}
+input[type=phone]{
+    width: 100px;
+    padding: 7px;
+    margin: 20px;
+    border-radius: 10px;
+}
+input[type=pincode]{
+    width: 100px;
+    padding: 7px;
+    margin: 20px;
+}
+
+input[type=password]{
+    width: 1000px;
+    padding: 7px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+input[type="submit"]
+{
+    background-color: rgb(57, 181, 0);
+    color:white;
+    text-align:center;
+    margin-left: 18%;   
+}
+
+input[type=radio]{
+    width: 100px;
+    padding: 7px;
+    margin: 20px;
+}
+#sub{
+    align-items: center;
+}
+.form_element{
+    width:100%;
+}
+label{
+    width:90px;
+    display:inline-block;
+    color:white;
+}
+
+</style>
+</head>
+<body style="background-color: brown;">
+    <h1><u>Registration Form</u></h1>
+    <div class="form_container">
+        <div class="error_message" style="display:none"></div>
+        <form>
+            <div class="form_element">
+                <label>NAME:</label><input type="text" name="full_name" id="full_name" placeholder="Fullname">
+            </div><br>
+            <div class="form_element">
+                <label> EMAIL:</label><input type="email" id="email" placeholder="email" >
+            </div><br>
+            <div class="form_element">
+            <label>PHONE NO:</label><input type="number" id="No">
+            </div><br>
+            <div class="form_element">
+                <label>GENDER:</label><input type="radio" name="gender" value ="Male"><label style="color:white">Male</label>
+                <input type="radio" name="gender" value ="Female"><label style="color:white">Female</label>
+            </div><br>
+            <div class="form_element">
+                <label> ADDRESS:</label><textarea name="address" id="addr" cols="32" rows="2"></textarea>
+            </div><br>
+            <div class="form_element">
+                <label>PINCODE:</label> <input type="number" id="pincode" >
+            </div><br>
+            <div class="form_element">
+                <label> PASSWORD:</label><input type="password" id="password">
+            </div><br>
+            <div class="form_element">
+                <label> CONFIRM PASSWORD:</label><input type="password" id="Con" placeholder="same as password">
+            </div><br>
+            <div class="form_element">
+                <input type="checkbox" id="confir" value="checked" ><b style="color:white">I agree to the Terms and Conditions</b>
+            </div><br>
+            <div class="form_element">
+                <input type="submit" id="submit" value="submit" style="border-radius: 10px; font-size: 20px;">
+            </div><br>
+        </form>
+    </div>
+    <div id="test">
+    </div><br>
+        Name:<span style="padding-right: 1%;color:rgb(0, 255, 76)" id="show_name" ></span>
+    </div><br>
+        Email:<span style="padding-right: 1%;color:rgb(0, 255, 76)" id="e"></span>
+    </div><br>
+        Phone no:<span style="padding-right:1%;color:rgb(0, 255, 76)" id="p"></span>
+    </div><br>
+        Gender:<span style="padding-right: 1%;color:rgb(0, 255, 76)" id="g"></span>
+    </div><br>
+        Address:<span style="padding-right: 1%;color:rgb(0, 255, 76)" id="a"></span>
+    </div>
+    
+    <script src="Q2_forms.js"></script>
+</body>
+</html>
