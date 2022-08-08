@@ -1,0 +1,14 @@
+{
+  "name": "shopping_cart",
+  "version": "1.0.0",
+  "description": "A Shopping cart which has CRUD of items",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aman Asish Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
